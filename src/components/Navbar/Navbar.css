@@ -1,0 +1,57 @@
+.nav-container {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    background: #155152;
+    margin: 0;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    margin-right: 40px;
+}
+
+.nav-sg-link {
+    font-size: 25px;
+    color: #F33809;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.nav-sg-link:hover{
+    color: #ffffff;
+}
+
+.img-logo {
+    margin-left: 20px;
+    height: 40px;
+}
+
+.flash-logo-text {
+    font-family: "Bangers", cursive;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin: 0 10px;
+    color: #F33809;
+    text-decoration: none;
+}
+
+.flash-logo-text:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 800px) {
+    .nav-container {
+        font-size: 20px;
+    }
+    .flash-logo-text{
+        font-size: 20px;
+    }
+    
+}
